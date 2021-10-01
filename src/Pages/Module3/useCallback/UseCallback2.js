@@ -1,6 +1,6 @@
 import React from 'react';
 
-const UseCallback = () => {
+const UseCallback2 = () => {
   const [contar, setContar] = React.useState(0);
 
   const handleClick = React.useCallback(() => {
@@ -26,4 +26,4 @@ const UseCallback = () => {
   );
 };
 
-export default UseCallback;
+export default UseCallback2;

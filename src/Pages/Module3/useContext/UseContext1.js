@@ -2,7 +2,7 @@ import React from 'react';
 import { GlobalStorage } from './GlobalContextCount';
 import { GlobalContext } from './GlobalContextCount';
 
-const UseContext = () => {
+const UseContext1 = () => {
   return (
     <div
       style={{
@@ -30,4 +30,4 @@ const Produto = () => {
   );
 };
 
-export default UseContext;
+export default UseContext1;

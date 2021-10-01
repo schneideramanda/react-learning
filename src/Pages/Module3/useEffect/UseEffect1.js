@@ -1,6 +1,6 @@
 import React from 'react';
 
-const UseEffect = () => {
+const UseEffect1 = () => {
   return (
     <div
       style={{
@@ -23,4 +23,4 @@ const UseEffect = () => {
   );
 };
 
-export default UseEffect;
+export default UseEffect1;

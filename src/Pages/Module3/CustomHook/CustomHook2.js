@@ -28,7 +28,7 @@ const CustomHook2 = () => {
       >
         <h4>2 - Fetch info (+ carregar e erro)</h4>
         {data.map((produto) => (
-          <p key={produto.key}>{produto.nome}</p>
+          <p key={produto.id}>{produto.nome}</p>
         ))}
       </div>
     );

@@ -1,7 +1,7 @@
 import React from 'react';
 import useLocalStorage from './useLocalStorage';
 
-const CustomHook = () => {
+const CustomHook1 = () => {
   const [produto, setProduto] = useLocalStorage('produto', '');
 
   function handleClick({ target }) {
@@ -29,4 +29,4 @@ const CustomHook = () => {
   );
 };
 
-export default CustomHook;
+export default CustomHook1;

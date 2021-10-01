@@ -1,6 +1,6 @@
 import React from 'react';
 
-const UseState = () => {
+const UseState1 = () => {
   const [ativo, setAtivo] = React.useState(false);
   const [dados, setDados] = React.useState({ nome: 'Alicia', idade: '8' });
 
@@ -27,4 +27,4 @@ const UseState = () => {
     </div>
   );
 };
-export default UseState;
+export default UseState1;

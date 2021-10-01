@@ -8,7 +8,7 @@ function operacaoLenta() {
   return c;
 }
 
-const UseMemo = () => {
+const UseMemo2 = () => {
   const [contar, setContar] = React.useState(0);
 
   const t1 = performance.now();
@@ -46,4 +46,4 @@ const UseMemo = () => {
   );
 };
 
-export default UseMemo;
+export default UseMemo2;

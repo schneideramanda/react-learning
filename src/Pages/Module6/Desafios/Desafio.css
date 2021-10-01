@@ -1,0 +1,59 @@
+body {
+  margin: 2rem;
+}
+
+img {
+  max-width: 100%;
+  border-radius: 0.5rem;
+  border: px solid #42424238;
+  box-shadow: 2px 2px 8px #212121;
+}
+
+a {
+  text-decoration: none;
+  color: black;
+}
+
+h1 {
+  font-size: 1.4rem;
+}
+
+.desafio {
+  display: flex;
+  flex-direction: column;
+  max-width: 60rem;
+  margin: 0 auto;
+  min-height: calc(100vh + 10rem);
+}
+
+.content {
+  flex: 1;
+}
+
+.desafioAnimeLeft {
+  transform: translateX(-20px);
+  opacity: 0;
+  animation: desafioAnimeLeft 0.5s forwards;
+}
+
+@keyframes desafioAnimeLeft {
+  to {
+    transform: initial;
+    opacity: initial;
+  }
+}
+
+.loading {
+  width: 20px;
+  height: 20px;
+  border-radius: 50%;
+  border: 10px solid #121212;
+  border-right-color: transparent;
+  animation: loading 1s infinite;
+}
+
+@keyframes loading {
+  to {
+    transform: rotate(360deg);
+  }
+}

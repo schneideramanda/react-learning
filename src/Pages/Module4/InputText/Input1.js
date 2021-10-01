@@ -1,6 +1,6 @@
 import React from 'react';
 
-export const Input = () => {
+export const Input1 = () => {
   // estado sempre ligado ao value
   // função atualizadora sempre ligada ao onChange
   // const [nome, setNome] = React.useState('');
