@@ -7,12 +7,13 @@ import HomeModule5 from './Pages/Module5/HomeModule5';
 import HomeModule1 from './Pages/Module1/HomeModule1';
 import HomeModule2 from './Pages/Module2/HomeModule2';
 import HomeModule6 from './Pages/Module6/HomeModule6';
+import HomeModule7 from './Pages/Module7/HomeModule7';
 
 export default function App() {
   return (
     <BrowserRouter>
       <div>
-        <nav>
+        <nav className='linkContainer'>
           <Link className='linkTab' to='/'>
             Home
           </Link>
@@ -34,11 +35,15 @@ export default function App() {
           <Link className='linkTab' to='module6/*'>
             Módulo 6
           </Link>
+          <Link className='linkTab' to='module7/*'>
+            Módulo 7
+          </Link>
         </nav>
 
         {/* A <Routes> looks through its children <Route>s and
             renders the first one that matches the current URL. */}
         <Routes>
+          <Route path='module7/*' element={<HomeModule7 />} />
           <Route path='module6/*' element={<HomeModule6 />} />
           <Route path='module5/*' element={<HomeModule5 />} />
           <Route path='module4/*' element={<HomeModule4 />} />
